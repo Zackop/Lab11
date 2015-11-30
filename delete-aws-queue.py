@@ -24,7 +24,7 @@ secret_access_key = result[1]
 # Set up a connection to the AWS service.
 conn = boto.sqs.connect_to_region("eu-west-1", aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
 
-#student_number = 'C13526123'
+#student_number = 'C13455028'
 #conn.delete_queue(sys.argv[1])
 
 # Get a list of the queues that exists and then print the list out
